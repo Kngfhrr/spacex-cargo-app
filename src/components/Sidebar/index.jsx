@@ -3,13 +3,7 @@ import { Empty, Menu, Layout } from 'antd'
 
 const { Sider } = Layout
 
-const Sidebar = ({
-    collapsed,
-    shipments,
-    onSelect,
-    setCollapsed,
-}) => {
-
+const Sidebar = ({ collapsed, shipments, onSelect, setCollapsed }) => {
     return (
         <Sider
             collapsible

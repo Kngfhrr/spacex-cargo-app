@@ -101,9 +101,7 @@ const MainPage = (props) => {
                             {selected ? (
                                 <div className="company-details__selected">
                                     <h1>{selected.name}</h1>
-                                    <p>
-                                        <a>{selected.email}</a>
-                                    </p>
+                                    <p><a>{selected.email}</a></p>
                                     {selected.boxes ? (
                                         <span>
                                             Number of required cargo bays:{' '}

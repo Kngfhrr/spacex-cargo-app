@@ -21,7 +21,7 @@ const Header = ({ options, getShipment, onSelect, onSave }) => {
                 >
                     <Input.Search placeholder="input here" enterButton />
                 </AutoComplete>
-                <div className='btns'>
+                <div className="btns">
                     <Button onClick={getShipment} className="btn">
                         Load
                     </Button>
